@@ -138,7 +138,7 @@ echo ''
 echo "Downloading build files and folders"
 /bin/sleep 5
 /bin/rm -rf /tmp/build
-/usr/bin/git clone git://github.com/carboncoders/elasticbeanstalk-nginx-php.git /tmp/build
+/usr/bin/git clone git://github.com/statichippo/elasticbeanstalk-nginx-php.git /tmp/build
 
 # Check download was successful
 if [ ! -f '/tmp/build/build' ]; then
